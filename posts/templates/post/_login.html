@@ -1,0 +1,29 @@
+{% extends 'base.html'%}
+{%  block content %}
+    <div id='reactify-login'>loading...</div>
+
+<div class="col" style="margin: 0 auto; width: 40%; height: auto; padding-top: 5.3333em; vertical-align: middle; display: block;">
+			<div class="col-bg-ctr">
+<h1>{{ title }}</h1>	
+<h2 class="center text" style="text-align: center;">SIGN IN</h2>
+<form class="ui  form" method="POST" action="#">{% csrf_token %}
+<div class="field">
+  <label>First Name</label>
+  <input type="text" name="firstname">
+</div>
+<div class="field">
+  <label>Last Name</label>
+  <input type="text" name="lastname">
+</div>
+<input class="ui button" type="submit" value="Log in">
+<input type="hidden" name="url" value="">
+
+<br />
+<div class="ui container">
+	<a href="" class="ui right">Forget Password</a>
+</div>
+</form>
+</div>
+<br />
+</div>
+{% endblock %}
