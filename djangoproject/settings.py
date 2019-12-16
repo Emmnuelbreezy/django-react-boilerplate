@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'reactify.wsgi.application'
+WSGI_APPLICATION = 'djangoproject.wsgi.application'
 
 
 # Database
@@ -123,7 +123,4 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'reactify-ui/build/static')] 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media'
-
-
-
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
