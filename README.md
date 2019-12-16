@@ -1,7 +1,7 @@
 # Django React Boilerplate
 
-[![alt text](https://github.com/Emmnuelbreezy/django-react-boilerplate/blob/master/thumbnail1.png "Sample1(localhost:8000/)")]
-[![alt text](https://github.com/Emmnuelbreezy/django-react-boilerplate/blob/master/thumbnail2.png "Sample2(/post/login)")]
+[![alt text](https://github.com/Emmnuelbreezy/django-react-boilerplate/master/thumbnail1.png "Sample1(localhost:8000/)")]
+[![alt text](https://github.com/Emmnuelbreezy/django-react-boilerplate/master/thumbnail2.png "Sample2(/post/login)")]
 
 This repository contains a boilerplate project setup for Django and React. The project contains a simple integration of a create app served in django project.
 
